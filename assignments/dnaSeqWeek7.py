@@ -22,3 +22,6 @@ print (DNASeq.count ('C') + (DNASeq.count ('c')))
 #Count the number of G's in the sequence
 print ("Number of G's")
 print (DNASeq.count ('G') + (DNASeq.count ('g')))
+
+# DB: Good! You could also avoid separately counting upper and lower cases
+#     by converting the sequence to one or the other using .upper() or .lower().
