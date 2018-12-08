@@ -11,3 +11,7 @@ def count_dict(mystring):
         print (letter + ': ' + str(count[letter]))
 mystring = input("Enter Your DNA Sequence: ")
 count_dict(mystring)
+
+# DB: Good! The only thing I had trouble with is that the input sequence has to be
+#     quoted, which I didn't realize at first. Not that important for such a simple
+#     script, but it's a good idea to document the purpose of each section of code.
