@@ -8,13 +8,16 @@ print ("Total Sequence Length:")
 print (len(dnaSeq))
 
 print ("Number of As:")
-print (dnaSeq.count ('a'))
+print (dnaSeq.lower().count ('a'))
 
 print ("Number of Cs:")
-print (dnaSeq.count ('c'))
+print (dnaSeq.lower().count ('c'))
 
 print ("Number of Ts:")
-print (dnaSeq.count ('t'))
+print (dnaSeq.lower().count ('t'))
 
 print ("Number of Gs:")
-print (dnaSeq.count ('g'))
+print (dnaSeq.lower().count ('g'))
+
+# DB: Good, although it doesn't count properly if you give it an uppercase sequence.
+#     Adding .lower() to the sequence will fix this.
