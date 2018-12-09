@@ -10,17 +10,21 @@ print (len(dnaSeq))
 
 #counts number of A's.
 print ("Number of As:")
-print (dnaSeq.count ('a'))
+print (dnaSeq.lower().count ('a'))
 
 #counts number of C's.
 print ("Number of Cs:")
-print (dnaSeq.count ('c'))
+print (dnaSeq.lower().count ('c'))
 
 
 #count number of G's.
 print ("Number of Gs:")
-print (dnaSeq.count ('g'))
+print (dnaSeq.lower().count ('g'))
 
 #count number of T's.
 print ("Number of Ts:")
-print (dnaSeq.count ('t'))
+print (dnaSeq.lower().count ('t'))
+
+# DB: Good! The only potential problem is that the script breaks if the
+#     sequence is uppercase. Adding .lower() to dnaSeq (see above) would
+#     fix this.
