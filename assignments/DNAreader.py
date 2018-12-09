@@ -22,3 +22,5 @@ print (DNASeq.count ("G"))
 #Number of T's:
 print ("Count of T's: ", end = " ")
 print (DNASeq.count ("T"))
+
+# DB: Good! Nicely done.
