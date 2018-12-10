@@ -1,5 +1,3 @@
-Submit your assignments in this folder.
-
 #!/usr/bin/env python
 
 #For the different bases in the DNA sequences calculate the frequencies.
